@@ -1,0 +1,26 @@
+html {background-color: green} /* 전체 배경 초록 */
+
+ /* 바디 배경 seashell 색, 밑 부분 여백 +50px */
+body {background-color: seashell; padding-bottom: 50px;}
+
+/* 큰 제목은 밑줄 */
+h1 {text-decoration: underline;}
+
+/* 소제목 색 파랑 */
+h3 {color : blue}
+
+/* 앵커 관련 CSS */
+a {color: green;} /* 기본색 초록 */
+a:visited {color: purple;} /* 방문시 보라 */
+a:hover {font-size: 20pt} /* 커서 올릴 시 20포인트로 */
+
+/* 표 관련 CSS */
+table {position: relative; left: 10px; font-weight: bold} /* 표 위치 조절 */
+table {border-spacing: 5px; border: thick groove lightskyblue;} /* 표 내부 디자인 조절 */
+table thead {background-color: black; color: white; font-weight: bold} /* 표 헤드 디자인 */
+table tfoot {background-color: lightgrey} /* 표 밑 디자인 조절 */
+table tbody {background-color: mintcream} /* 표 바디 디자인 조절 */
+table caption {font-size: 15pt; font-weight: bold} /* 테이블 캡션 조절 */
+
+/* 이메일은 클릭해도 초록 */
+.e-mail:visited {color: green;}
